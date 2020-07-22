@@ -25,6 +25,11 @@ header img {
     height: 50px;
     margin-top: 10px;
 }
+.sel{
+  position: absolute;
+  top: 90px;
+  left: 50%;
+}
 
 .cds-container {
     display: flex;

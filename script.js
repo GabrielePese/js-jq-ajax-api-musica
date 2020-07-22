@@ -31,11 +31,20 @@ $(document).ready(function(){
         var discoHTML = compiled(disco);
         target.append(discoHTML)
       }
+
+      $("select.genere").change(function(){
+          var selectedMusic= $(this).children("option:selected").val();
+          alert("You have selected the music - " + selectedMusic);
+
+        
+          })
+
+
     },
     error:function (){
       console.log("error");
     }
 
 
-  })
+})
 })

@@ -11,7 +11,7 @@
           <img src={{poster}} alt="">
           <h3> {{title}} </h3>
           <span class="author"> {{author}} </span>
-          <span> {{genre}} </span>
+          <span class={{genre}}> {{genre}} </span>
           <span class="year"> {{year}} </span>
           </div>
         </script>
@@ -25,8 +25,20 @@
             </div>
         </header>
 
+        <div class="sel">
+          <select class="genere" name="">
+            <option value="pop">pop</option>
+            <option value="rock">rock</option>
+            <option value="metal">metal</option>
+            <option value="jazz">jazz</option>
+          </select>
+
+        </div>
+
         <div id="cds-container" class="cds-container container">
             <!-- Disco ad esempio -->
+
+
             <div id="cd-template" class="cd">
                 <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Ten_Summoner%27s_Tales.jpg" alt="">
                 <h3>Ten's Summoners Tales</h3>
